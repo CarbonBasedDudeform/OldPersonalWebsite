@@ -1,0 +1,190 @@
+/*
+Theme Name: DJM Horizontals
+Theme URI: 
+Description: Theme for my personal website
+Author: Dominic Musgrave
+Author URI: http://www.dominicmusgrave.com
+Version: 1.0
+Tags: personal site, horizontal, colourful
+License: GNU General Public License | This theme is completely free and open source to use as you like for both personal and commercial projects without any limitations.
+License URI: https://www.gnu.org/licenses/gpl.html
+*/
+
+html, body {
+	height: 100%;
+	margin: 0 0 0 0;
+	overflow:hidden;
+}
+
+a
+{
+	font-size: 2em;
+	font-family: 'Libre Baskerville', serif;
+	color: #FF3333;
+	text-decoration: none
+}
+
+.highlight {
+	color: #FF3333;
+}
+
+a:link { color: #333; }
+a:visited {color: #333; }
+a:hover { color: #999; }
+a:active {color: #FFF; }
+
+hr
+{
+	border-style: none;
+}
+
+div 
+{
+	font-family: poiret-one, serif;
+	font-size: 10em;
+	text-align:center;
+	padding-top: 0;
+	position:relative;
+	margin: 0 0 0 0;
+	height: 50%;
+}
+
+.hidden {
+	position: fixed;
+	visibility: hidden;
+	height: 0;
+	width: 0;
+	padding-top: 0;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.pcontent {
+	padding-top: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	overflow:auto;
+	height: 80%;
+	font-size: 0.4em;
+	font-family: 'Libre Baskerville', serif;
+	background-color: #FFF;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: solid black;
+	background: rgba(255,255,255, 0.5);
+	cursor:auto;
+}
+
+.content {
+	padding-top: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	overflow:auto;
+	height: 80%;
+	font-size: 0.3em;
+	font-family: 'Libre Baskerville', serif;
+	background-color: #FFF;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: solid black;
+	background: rgba(255,255,255, 0.5);
+	cursor:auto;
+}
+
+.cvcontent {
+	padding-top: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	overflow:auto;
+	height: 65%;
+	font-size: 0.125em;
+	font-family: 'Libre Baskerville', serif;
+	background-color: #FFF;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: solid black;
+	background: rgba(255,255,255, 0.5);
+	cursor:auto;
+}
+
+
+.contentimg {
+	float: right;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.4); 
+}
+
+.blue 
+{
+	background-color:#09F;
+}
+
+.yellow
+{
+	background-color:#FF6;
+}
+
+.peach
+{
+	background-color:#F93;
+}
+
+.green
+{
+	background-color:#6C3;
+}
+
+.orange
+{
+	background-color:#F60;
+}
+
+.clicked {
+}
+
+.toplevel {
+	cursor:pointer;
+}
+
+.midlevel {
+	cursor:pointer;
+	font-size: 6em;
+}
+
+.lowestlevel {
+	cursor:pointer;
+	font-size: 8em;
+}
+
+.loaded {
+}
